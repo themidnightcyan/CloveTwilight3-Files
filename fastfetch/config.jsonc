@@ -1,0 +1,102 @@
+{
+  "$schema": "https://github.com/fastfetch-cli/fastfetch/raw/dev/doc/json_schema.json",
+  "display": {
+    "separator": " îªŸ ",
+    "color": {
+      "keys": "light_blue",
+    },
+  },
+  "modules": [
+    {
+      "type": "title",
+      "key": " ï€‡",
+      "color": {
+        "user": "light_blue",
+        "at": "white",
+        "host": "magenta",
+      },
+    },
+    "break",
+    {
+      "type": "command",
+      "key": " ó±‹©",
+      "text": "/usr/libexec/bazzite-fetch-image",
+    },
+    {
+      "type": "os",
+      "key": " ó°£›",
+      "format": "{pretty-name}",
+    },
+    {
+      "type": "kernel",
+      "key": " ï…¼",
+      "format": "{1} {2}",
+    },
+    {
+      "type": "uptime",
+      "key": " ó°…",
+    },
+    {
+      "type": "command",
+      "key": " ó°” ",
+      "text": "date -d$(ls -alct / --time-style=full-iso|tail -1|awk '{print $6}') +'Spawned on %b %d %G'",
+      "shell": "/usr/bin/bash",
+    },
+    "break",
+    {
+      "type": "host",
+      "key": " ó°¾°",
+    },
+    {
+      "type": "cpu",
+      "key": " ó°» ",
+    },
+    {
+      "type": "gpu",
+      "key": " ó°›",
+    },
+    {
+      "type": "memory",
+      "key": " î¿…",
+    },
+    {
+      "type": "disk",
+      "key": " ï‚ ",
+    },
+    {
+      "type": "battery",
+      "key": " ï‰‚",
+    },
+    {
+      "type": "gamepad",
+      "key": " ó°–º",
+    },
+    "break",
+    {
+      "type": "de",
+      "key": " ó°•®",
+    },
+    {
+      "type": "wm",
+      "key": " ï’ˆ",
+    },
+    {
+      "type": "shell",
+      "key": " ï’‰",
+    },
+    {
+      "type": "terminal",
+      "key": " îž•",
+    },
+    {
+      "type": "packages",
+      "key": " ó°–",
+    },
+    "break",
+    {
+      "type": "colors",
+      "paddingLeft": 2,
+      "symbol": "circle",
+    },
+  ],
+}
