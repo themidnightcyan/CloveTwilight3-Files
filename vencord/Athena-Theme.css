@@ -1,8 +1,8 @@
 /**
- * @name Clove-Theme
+ * @name Athena-Theme
  * @author CloveTwilight3
  * @version 1
- * @description Clove's custom theme based on ClearVision v7.
+ * @description Athena's custom theme based on ClearVision v7.
  */
  
 /* IMPORT CSS */
@@ -12,8 +12,8 @@
 /* SETTINGS */
 :root {
   /* ACCENT COLORS */
-  --main-color: #da27e6;
-  --hover-color: #a71eb3;
+  --main-color: #003f5c;
+  --hover-color: #002c42;
   --success-color: #43b581;
   --danger-color: #982929;
   
@@ -26,7 +26,7 @@
 
   /* APP BACKGROUND */
   --background-shading-percent: 100%;
-  --background-image: url(https://github.com/CloveTwilight3/CloveTwilight3-Files/blob/master/Wallpapers/Clove.jpg?raw=true);
+  --background-image: url(https://github.com/CloveTwilight3/CloveTwilight3-Files/blob/master/Wallpapers/Athena.jpg?raw=true);
   --background-position: center; 
   --background-size: cover; 
   --background-attachment: fixed; 
