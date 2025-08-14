@@ -26,7 +26,7 @@
 
     /* APP BACKGROUND */
     --background-shading-percent: 100%;
-    --background-image: url(https://img1.wallspic.com/previews/6/2/3/5/6/165326/165326-cyberpunk_2077-cyberpunk-building-atmosphere-skyscraper-x750.jpg);
+    --background-image: url(https://github.com/CloveTwilight3/CloveTwilight3-Files/blob/master/Background/Cyberpunk.jpg?raw=true);
     --background-position: center;
     --background-size: cover;
     --background-attachment: fixed;
@@ -47,7 +47,7 @@
     --user-modal-filter: var(--background-filter);
 
     /* HOME ICON */
-    --home-icon: url(https://github.com/CloveTwilight3/CloveTwilight3-Files/blob/master/vencord/Logo.png?raw=true);
+    --home-icon: url(https://github.com/CloveTwilight3/CloveTwilight3-Files/blob/master/logos/cyberpunk.png?raw=true);
     --home-size: cover;
 
     /* FONTS */
