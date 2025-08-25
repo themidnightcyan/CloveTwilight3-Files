@@ -1,5 +1,5 @@
 function GitCommit {
-    # Switch to main branch
+# Switch to main branch
 Write-Host "Switching to main branch..." -ForegroundColor Cyan
 git checkout main
 
@@ -60,7 +60,6 @@ if ($LASTEXITCODE -ne 0) {
 }
 
 Write-Host "Successfully committed and pushed to main!" -ForegroundColor Green
-
 }
 
 GitCommit
